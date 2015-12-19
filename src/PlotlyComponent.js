@@ -1,7 +1,7 @@
-const React = require('react');
-var Plotly = require('plotly.js/dist/plotly.js');
-const shallowEqual = require('shallowequal');
-const deepEqual = require('deep-equal');
+import React from 'react';
+import Plotly from 'plotly.js/dist/plotly.js';
+import shallowEqual from 'shallowequal';
+import deepEqual from 'deep-equal';
 
 var PlotlyComponent = React.createClass({
 
@@ -36,4 +36,4 @@ var PlotlyComponent = React.createClass({
   }
 });
 
-module.exports = PlotlyComponent;
+export default PlotlyComponent;
