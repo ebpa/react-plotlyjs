@@ -1,7 +1,5 @@
 import React from 'react';
 import Plotly from 'plotly.js/dist/plotly.js';
-import shallowEqual from 'shallowequal';
-import deepEqual from 'deep-equal';
 
 var PlotlyComponent = React.createClass({
 
